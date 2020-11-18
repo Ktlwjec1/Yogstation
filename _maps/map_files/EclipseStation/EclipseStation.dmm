@@ -8887,20 +8887,20 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "arJ" = (
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral,
+/obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "arK" = (
-/obj/effect/turf_decal/tile/neutral{
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=CFSE";
+	location = "ARV"
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "arL" = (
@@ -9096,14 +9096,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms/a)
-"asf" = (
-/obj/item/twohanded/required/kirbyplants/random,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "asg" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -9159,12 +9151,6 @@
 	},
 /turf/open/floor/wood,
 /area/security/main)
-"asm" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "asn" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -9174,15 +9160,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/main)
-"aso" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "asp" = (
 /obj/structure/chair{
 	dir = 4
@@ -9251,37 +9228,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/janitor/a)
-"asz" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/navbeacon{
-	codes_txt = "patrol;next_patrol=CFSE";
-	location = "ARV"
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"asA" = (
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "asB" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -9300,22 +9246,6 @@
 	},
 /turf/open/floor/plating,
 /area/crew_quarters/dorms/a)
-"asD" = (
-/obj/item/twohanded/required/kirbyplants/random,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"asE" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "asF" = (
 /obj/machinery/camera{
 	c_tag = "Arrivals - East"
@@ -113891,11 +113821,11 @@ lPk
 abL
 bnM
 boL
-arJ
+boL
 lPk
 oaW
 lPk
-asA
+boL
 boL
 bAK
 abL
@@ -114148,11 +114078,11 @@ baR
 lPk
 aff
 aff
-arK
+aff
 asG
 arh
 cti
-arp
+aff
 aff
 abO
 afi
@@ -114405,11 +114335,11 @@ baQ
 lPk
 aff
 aff
-arK
+aff
 cfZ
 ari
 ctQ
-arp
+aff
 aff
 bpI
 afi
@@ -114662,11 +114592,11 @@ baQ
 lPk
 aff
 aff
-arK
+aff
 chf
 cta
 asH
-arp
+aff
 aff
 aff
 afi
@@ -114919,11 +114849,11 @@ baS
 lPk
 aff
 aff
-asf
+arJ
 bfg
 biP
 bfg
-asD
+arJ
 aff
 aff
 afi
@@ -115176,11 +115106,11 @@ baT
 lPk
 aff
 aff
-asm
-aso
-asz
-aso
-asE
+aff
+aff
+arK
+aff
+aff
 aff
 aff
 abi
